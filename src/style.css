@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+body > div {
+  height: 100%;
+}
+
+body {
+  color: rgba(255, 255, 255, .8);
+  font-family: 'Source Sans Pro', sans-serif;
+  background: #50a3a2;
+  background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+}
+
+::-webkit-input-placeholder {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: rgba(255, 255, 255, .8);
+  font-weight: 300;
+}
+:-moz-placeholder {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: rgba(255, 255, 255, .8);
+  font-weight: 300;
+  opacity: 1;
+}
+::-moz-placeholder {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: rgba(255, 255, 255, .8);
+  font-weight: 300;
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: rgba(255, 255, 255, .8);
+  font-weight: 300;
+}

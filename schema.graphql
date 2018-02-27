@@ -1,0 +1,26 @@
+type Query {
+  viewer: Viewer
+}
+
+type Mutation {
+  login(username: String!, password: String!): Viewer
+}
+
+enum Status {
+  ALIVE
+  DOWN
+}
+
+type Viewer {
+  isLoggedIn: Boolean
+  locale: String
+  user: User
+}
+
+type User {
+  id: ID!
+  token: String
+  name: String
+  email: String
+}
+
