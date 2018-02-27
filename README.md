@@ -14,3 +14,5 @@ $ yarn mock
 # Run application
 $ yarn start
 ```
+
+### WARNING: This is just and example made to work with mocked graphql server. Mock may return random values, so you may be logged in / logged out after refresh.
