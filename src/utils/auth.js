@@ -14,7 +14,7 @@ export const login = async (loginData) => {
     const response = await loginMutation(loginData)
 
     const responseData = response.data
-    const token = responseData.token
+    const token = responseData.user.token
 
     setAuthToken(token)
 

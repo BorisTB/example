@@ -6,7 +6,6 @@ const mutation = graphql`
     data: login(username: $username, password: $password) {
       isLoggedIn
       user {
-        id
         token
       }
     }
