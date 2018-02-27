@@ -1,3 +1,3 @@
-import PrivateLayout from './Private'
+import PrivateLayout from './PrivateHoc'
 
 export default PrivateLayout

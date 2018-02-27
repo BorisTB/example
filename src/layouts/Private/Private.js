@@ -1,8 +1,9 @@
 import React from 'react'
 import styles from './Private.css'
 
-export default () => (
+export default ({ viewer }) => (
   <div className={ styles.layout }>
-    Welcome
+    <div className={ styles.title }>Welcome</div>
+    <div className={ styles.smallText }>ID: { viewer.user.id }</div>
   </div>
 )

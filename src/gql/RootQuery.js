@@ -5,6 +5,7 @@ export default graphql`
     viewer {
       isLoggedIn
       locale
+      ...PrivateFragment_viewer
     }
   }
 `
